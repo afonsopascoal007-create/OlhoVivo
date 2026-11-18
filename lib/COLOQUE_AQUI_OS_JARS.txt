@@ -1,0 +1,10 @@
+Coloque nesta pasta 2 ficheiros .jar:
+
+1) Driver da base de dados (UM dos dois):
+   - mariadb-java-client-3.x.x.jar   https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector/
+   - mysql-connector-j-8.x.x.jar     https://dev.mysql.com/downloads/connector/j/  (Platform Independent)
+
+2) iText 5 (relatorio PDF): itextpdf-5.5.13.x.jar
+   https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar
+   (pode usar o jar do iText que recebeu nas aulas de POO II; se for o iText 2.1.7,
+    troque "com.itextpdf.text" por "com.lowagie.text" em src/olhovivo/util/RelatorioPDF.java)
