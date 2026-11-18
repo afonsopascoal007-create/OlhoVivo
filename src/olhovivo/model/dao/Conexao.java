@@ -28,7 +28,7 @@ public final class Conexao {
         boolean mysql = existe("com.mysql.cj.jdbc.Driver") || existe("com.mysql.jdbc.Driver");
         if (url.isEmpty()) {
             String host = CFG.getProperty("host", "localhost");
-            String porta = CFG.getProperty("port", "3306");
+            String porta = CFG.getProperty("port", "3307");
             String bd = CFG.getProperty("database", "olho_vivo");
             if (mariadb) url = "jdbc:mariadb://" + host + ":" + porta + "/" + bd;
             else url = "jdbc:mysql://" + host + ":" + porta + "/" + bd
